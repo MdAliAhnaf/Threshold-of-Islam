@@ -1,0 +1,79 @@
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\bin\Debug\Threshold of Islam.exe.config
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\bin\Debug\Threshold of Islam.exe
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\bin\Debug\Threshold of Islam.pdb
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Properties.Resources.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold of Islam.csproj.GenerateResource.cache
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold of Islam.csproj.CoreCompileInputs.cache
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold of Islam.exe
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold of Islam.pdb
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\bin\Debug\Guna.UI2.dll
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold of Islam.csproj.CopyComplete
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\bin\Debug\Guna.UI.dll
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Login.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.HomePage.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.PrayerTime.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.CreateAccount.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.AdminPanel.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.ProfileDetails.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Surah.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Names99.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Abu_Dawud.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.After_Prayer.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Arafah.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Before_Sleeping.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Bukhari.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Conversations_of_scholarship.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Dawud_Hadith_1556.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Dawud_Hadith_1568.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Dawud_Hadith_1574.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Dawud_Hadith_1729.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Dawud_Hadith_1740.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Dawud_Hadith_1768.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Dawud_Hadith_2482.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Dawud_Hadith_2506.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Dawud_Hadith_2507.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.DuaCollection.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Hadith_Collection.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Hadith_no_1.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Hadith_No_2.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Hadith_No_5.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Hadith_No_56.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Hadith_No_57.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Hadith_No_58.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Hadith_No_7.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Hadith_No_8.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Hadith_No_9.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Hearing_Athan.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Ismail_ibn_Musa_Menk.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Lodging.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Market.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Mizanur_Rahman_Azhari.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Morning_Evening_Dua.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Mosque.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Muslim.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Muslim_Hadish_2.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Muslim_Hadith_0432.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Muslim_Hadith_0433.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Muslim_Hadith_0435.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Muslim_Hadith_10.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Muslim_Hadith_5.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Muslim_Hadith_No_0736.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Muslim_Hadith_No_0740.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Muslim_Hadith_No_735.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Protection_from_Allah.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Rabbana.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Return.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Safa_Marwah.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Talbiya.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Tashahhud.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.To_Do_List.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Travel.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.When_Woke_Up.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Zakir_Naiik_lecture.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.ResetPassword.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.PasswordRecoveryCode.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Kalimas.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.Loading.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.about.resources
+C:\Users\Twilight\source\repos\Threshold of Islam\Threshold of Islam\obj\Debug\Threshold_of_Islam.contactus.resources

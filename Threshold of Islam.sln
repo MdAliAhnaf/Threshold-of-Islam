@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threshold of Islam", "Threshold of Islam\Threshold of Islam.csproj", "{F35AC956-0034-4EC9-8A44-D70186F92ECA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "setup", "setup\setup.vdproj", "{AA4E2AFC-B524-43C1-897B-01B6970914E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F35AC956-0034-4EC9-8A44-D70186F92ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35AC956-0034-4EC9-8A44-D70186F92ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35AC956-0034-4EC9-8A44-D70186F92ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35AC956-0034-4EC9-8A44-D70186F92ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4E2AFC-B524-43C1-897B-01B6970914E6}.Debug|Any CPU.ActiveCfg = Debug
+		{AA4E2AFC-B524-43C1-897B-01B6970914E6}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {823A25D7-601E-4E54-AF27-B3CA9DCB2B1D}
+	EndGlobalSection
+EndGlobal

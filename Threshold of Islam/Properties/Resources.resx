@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="unsplash_rxsk7aQoRxg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unsplash_rxsk7aQoRxg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoico.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_youtube_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-youtube-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="man__male__boy__office__business__tie__document" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\man, male, boy, office, business, tie, document.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mahbub_mishu_BDH9DxB9s6U_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mahbub-mishu-BDH9DxB9s6U-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Transparent_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transparent image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_discord_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-discord-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sunset_sun_sunshine_sunrise_weather_icon_194245" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sunset_sun_sunshine_sunrise_weather_icon_194245.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ikhlas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ikhlas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_contact_us_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-contact-us-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_mosque" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red_mosque.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto_1090245970_170667a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1090245970-170667a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="roberto_nickson_KLNSaP6wvoU_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\roberto-nickson-KLNSaP6wvoU-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_eye_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-eye-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aww" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aww.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="timeclock_tiemp_3924" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\timeclock_tiemp_3924.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_back_97586" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic-back_97586.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sunrise_weather_morning_icon_187687" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sunrise_weather_morning_icon_187687.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6th_Kalima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6th_Kalima.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2nd_Kalima_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2nd_Kalima_.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_about_104_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-about(104).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shutterstock_749707636__1__copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shutterstock_749707636__1__copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_phonelink_ring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-phonelink-ring.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rahman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rahman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_validation_96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-validation-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3rd_Kalima_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3rd_Kalima_.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1904671_arrow_arrow_right_change_direction_next_page_right_122521" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1904671-arrow-arrow-right-change-direction-next-page-right_122521.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_nature_wide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_nature_wide.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mosque_PNG70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mosque_PNG70.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nurhan_yC70QqvrPRk_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nurhan-yC70QqvrPRk-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sadblack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sadblack.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="connor_houtman_ceFa_z3Y7ws_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\connor-houtman-ceFa_z3Y7ws-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alkhatab_al_saqri_LM9UihLpexM_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alkhatab-al-saqri-LM9UihLpexM-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_linkedin_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-linkedin-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_password_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-password-90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Baqarah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Baqarah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abdurahman_iseini_DNwQ35LdxXQ_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abdurahman-iseini-DNwQ35LdxXQ-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unsplash_DBsQFuIbXg4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unsplash_DBsQFuIbXg4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mapanimation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mapanimation.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="geoffrey_baumbach_P1w_eJzhSUk_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\geoffrey-baumbach-P1w-eJzhSUk-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_man_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-man-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mobilering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mobilering.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leo_manjarrez_q2RE_l8xysk_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leo-manjarrez-q2RE-l8xysk-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_icon_icons_com_57997" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_icon-icons.com_57997.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1st_Kalima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1st_Kalima.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="business_color_progress_icon_icons_com_53437" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\business-color_progress_icon-icons.com_53437.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_hide_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-hide-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_eye_96" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-eye-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="josh_hild_2oDMoju8bfk_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\josh-hild-2oDMoju8bfk-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rishad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rishad.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4th_Kalima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4th_Kalima.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unsplash_8BcNsqDJy2I" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unsplash_8BcNsqDJy2I.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_facebook_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-facebook-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_github_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-github-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nazmulsir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nazmulsir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gebhartyler_AQpOwYbm_Jg_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gebhartyler-AQpOwYbm_Jg-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gabriel_santiago_l1sqXJXBgd0_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gabriel-santiago-l1sqXJXBgd0-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="me" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\me.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="names99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\names99.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_phonelink_ring1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-phonelink-ring1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imitation_transparent_background_seamless_vector_illustration_69028332" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imitation-transparent-background-seamless-vector-illustration-69028332.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="right_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\right arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ravi_mistry_tzY4j1Q5NWc_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ravi-mistry-tzY4j1Q5NWc-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="activity_productivity_icon_icons_com_51080" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\activity_productivity_icon-icons.com_51080.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sad.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alaq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alaq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightarrow_116394" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightarrow_116394.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_muslim_muslim_praying_prayer_islam_faith_mindful_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-muslim-muslim-praying-prayer-islam-faith-mindful-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gmailanimation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gmailanimation.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pratik_gupta_z7ES_ScFPhg_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pratik-gupta-z7ES_ScFPhg-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wallpaperflare_com_wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wallpaperflare.com_wallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unsplash_bnjHJO3c5uM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unsplash_bnjHJO3c5uM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_51112dkXAWL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\51112dkXAWL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5th_Kalima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5th_Kalima.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_blue_mosque_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-blue-mosque-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fatiha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fatiha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alkhatab_al_saqri_2XAxD30VP_U_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alkhatab-al-saqri-2XAxD30VP-U-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_discord_bubble_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-discord-bubble-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shams" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shams.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adrian_diaz_sieckel__8X6B5j8mU0_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adrian-diaz-sieckel--8X6B5j8mU0-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_bluez_mosque_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-bluez-mosque-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="josh_hild_zE_VaDkmybY_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\josh-hild-zE_VaDkmybY-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lasttry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lasttry.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

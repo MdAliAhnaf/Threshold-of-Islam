@@ -1,0 +1,1022 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F35AC956-0034-4EC9-8A44-D70186F92ECA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Threshold_of_Islam</RootNamespace>
+    <AssemblyName>Threshold of Islam</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.4.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.4\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>A:\A1uB\OBJECT ORIENTED PROGRAMMING 2 [J]\Guna.UI-Framework-Lib-master\Guna.UI_WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.2.5, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.2.5\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about.Designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Abu_Dawud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Abu_Dawud.Designer.cs">
+      <DependentUpon>Abu_Dawud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.Designer.cs">
+      <DependentUpon>AdminPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="After_Prayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="After_Prayer.Designer.cs">
+      <DependentUpon>After_Prayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arafah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arafah.Designer.cs">
+      <DependentUpon>Arafah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Before_Sleeping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Before_Sleeping.Designer.cs">
+      <DependentUpon>Before_Sleeping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bukhari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bukhari.Designer.cs">
+      <DependentUpon>Bukhari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="contactus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contactus.Designer.cs">
+      <DependentUpon>contactus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conversations_of_scholarship.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conversations_of_scholarship.Designer.cs">
+      <DependentUpon>Conversations_of_scholarship.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateAccount.Designer.cs">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dawud_Hadith_1556.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dawud_Hadith_1556.Designer.cs">
+      <DependentUpon>Dawud_Hadith_1556.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dawud_Hadith_1568.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dawud_Hadith_1568.Designer.cs">
+      <DependentUpon>Dawud_Hadith_1568.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dawud_Hadith_1574.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dawud_Hadith_1574.Designer.cs">
+      <DependentUpon>Dawud_Hadith_1574.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dawud_Hadith_1729.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dawud_Hadith_1729.Designer.cs">
+      <DependentUpon>Dawud_Hadith_1729.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dawud_Hadith_1740.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dawud_Hadith_1740.Designer.cs">
+      <DependentUpon>Dawud_Hadith_1740.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dawud_Hadith_1768.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dawud_Hadith_1768.Designer.cs">
+      <DependentUpon>Dawud_Hadith_1768.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dawud_Hadith_2482.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dawud_Hadith_2482.Designer.cs">
+      <DependentUpon>Dawud_Hadith_2482.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dawud_Hadith_2506.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dawud_Hadith_2506.Designer.cs">
+      <DependentUpon>Dawud_Hadith_2506.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dawud_Hadith_2507.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dawud_Hadith_2507.Designer.cs">
+      <DependentUpon>Dawud_Hadith_2507.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DuaCollection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DuaCollection.Designer.cs">
+      <DependentUpon>DuaCollection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hadith_Collection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hadith_Collection.Designer.cs">
+      <DependentUpon>Hadith_Collection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hadith_no_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hadith_no_1.Designer.cs">
+      <DependentUpon>Hadith_no_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hadith_No_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hadith_No_2.Designer.cs">
+      <DependentUpon>Hadith_No_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hadith_No_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hadith_No_5.Designer.cs">
+      <DependentUpon>Hadith_No_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hadith_No_56.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hadith_No_56.Designer.cs">
+      <DependentUpon>Hadith_No_56.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hadith_No_57.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hadith_No_57.Designer.cs">
+      <DependentUpon>Hadith_No_57.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hadith_No_58.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hadith_No_58.Designer.cs">
+      <DependentUpon>Hadith_No_58.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hadith_No_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hadith_No_7.Designer.cs">
+      <DependentUpon>Hadith_No_7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hadith_No_8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hadith_No_8.Designer.cs">
+      <DependentUpon>Hadith_No_8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hadith_No_9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hadith_No_9.Designer.cs">
+      <DependentUpon>Hadith_No_9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hearing_Athan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hearing_Athan.Designer.cs">
+      <DependentUpon>Hearing_Athan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ismail_ibn_Musa_Menk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ismail_ibn_Musa_Menk.Designer.cs">
+      <DependentUpon>Ismail_ibn_Musa_Menk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kalimas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kalimas.Designer.cs">
+      <DependentUpon>Kalimas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lodging.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lodging.Designer.cs">
+      <DependentUpon>Lodging.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Market.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Market.Designer.cs">
+      <DependentUpon>Market.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mizanur_Rahman_Azhari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mizanur_Rahman_Azhari.Designer.cs">
+      <DependentUpon>Mizanur_Rahman_Azhari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Morning_Evening_Dua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Morning_Evening_Dua.Designer.cs">
+      <DependentUpon>Morning_Evening_Dua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mosque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mosque.Designer.cs">
+      <DependentUpon>Mosque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Muslim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muslim.Designer.cs">
+      <DependentUpon>Muslim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Muslim_Hadish_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muslim_Hadish_2.Designer.cs">
+      <DependentUpon>Muslim_Hadish_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Muslim_Hadith_0432.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muslim_Hadith_0432.Designer.cs">
+      <DependentUpon>Muslim_Hadith_0432.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Muslim_Hadith_0433.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muslim_Hadith_0433.Designer.cs">
+      <DependentUpon>Muslim_Hadith_0433.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Muslim_Hadith_0435.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muslim_Hadith_0435.Designer.cs">
+      <DependentUpon>Muslim_Hadith_0435.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Muslim_Hadith_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muslim_Hadith_10.Designer.cs">
+      <DependentUpon>Muslim_Hadith_10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Muslim_Hadith_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muslim_Hadith_5.Designer.cs">
+      <DependentUpon>Muslim_Hadith_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Muslim_Hadith_No_0736.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muslim_Hadith_No_0736.Designer.cs">
+      <DependentUpon>Muslim_Hadith_No_0736.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Muslim_Hadith_No_0740.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muslim_Hadith_No_0740.Designer.cs">
+      <DependentUpon>Muslim_Hadith_No_0740.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Muslim_Hadith_No_735.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Muslim_Hadith_No_735.Designer.cs">
+      <DependentUpon>Muslim_Hadith_No_735.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Names99.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Names99.Designer.cs">
+      <DependentUpon>Names99.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordRecoveryCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordRecoveryCode.Designer.cs">
+      <DependentUpon>PasswordRecoveryCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrayerTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrayerTime.Designer.cs">
+      <DependentUpon>PrayerTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfileDetails.Designer.cs">
+      <DependentUpon>ProfileDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Protection_from_Allah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Protection_from_Allah.Designer.cs">
+      <DependentUpon>Protection_from_Allah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rabbana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rabbana.Designer.cs">
+      <DependentUpon>Rabbana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetPassword.Designer.cs">
+      <DependentUpon>ResetPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Return.Designer.cs">
+      <DependentUpon>Return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Safa_Marwah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Safa_Marwah.Designer.cs">
+      <DependentUpon>Safa_Marwah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Surah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Surah.Designer.cs">
+      <DependentUpon>Surah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Talbiya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Talbiya.Designer.cs">
+      <DependentUpon>Talbiya.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tashahhud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tashahhud.Designer.cs">
+      <DependentUpon>Tashahhud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="To_Do_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="To_Do_List.Designer.cs">
+      <DependentUpon>To_Do_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Travel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Travel.Designer.cs">
+      <DependentUpon>Travel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="When_Woke_Up.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="When_Woke_Up.Designer.cs">
+      <DependentUpon>When_Woke_Up.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zakir_Naiik_lecture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zakir_Naiik_lecture.Designer.cs">
+      <DependentUpon>Zakir_Naiik_lecture.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="about.resx">
+      <DependentUpon>about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Abu_Dawud.resx">
+      <DependentUpon>Abu_Dawud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.resx">
+      <DependentUpon>AdminPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="After_Prayer.resx">
+      <DependentUpon>After_Prayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arafah.resx">
+      <DependentUpon>Arafah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Before_Sleeping.resx">
+      <DependentUpon>Before_Sleeping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bukhari.resx">
+      <DependentUpon>Bukhari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contactus.resx">
+      <DependentUpon>contactus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conversations_of_scholarship.resx">
+      <DependentUpon>Conversations_of_scholarship.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount.resx">
+      <DependentUpon>CreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dawud_Hadith_1556.resx">
+      <DependentUpon>Dawud_Hadith_1556.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dawud_Hadith_1568.resx">
+      <DependentUpon>Dawud_Hadith_1568.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dawud_Hadith_1574.resx">
+      <DependentUpon>Dawud_Hadith_1574.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dawud_Hadith_1729.resx">
+      <DependentUpon>Dawud_Hadith_1729.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dawud_Hadith_1740.resx">
+      <DependentUpon>Dawud_Hadith_1740.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dawud_Hadith_1768.resx">
+      <DependentUpon>Dawud_Hadith_1768.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dawud_Hadith_2482.resx">
+      <DependentUpon>Dawud_Hadith_2482.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dawud_Hadith_2506.resx">
+      <DependentUpon>Dawud_Hadith_2506.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dawud_Hadith_2507.resx">
+      <DependentUpon>Dawud_Hadith_2507.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DuaCollection.resx">
+      <DependentUpon>DuaCollection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hadith_Collection.resx">
+      <DependentUpon>Hadith_Collection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hadith_no_1.resx">
+      <DependentUpon>Hadith_no_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hadith_No_2.resx">
+      <DependentUpon>Hadith_No_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hadith_No_5.resx">
+      <DependentUpon>Hadith_No_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hadith_No_56.resx">
+      <DependentUpon>Hadith_No_56.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hadith_No_57.resx">
+      <DependentUpon>Hadith_No_57.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hadith_No_58.resx">
+      <DependentUpon>Hadith_No_58.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hadith_No_7.resx">
+      <DependentUpon>Hadith_No_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hadith_No_8.resx">
+      <DependentUpon>Hadith_No_8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hadith_No_9.resx">
+      <DependentUpon>Hadith_No_9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hearing_Athan.resx">
+      <DependentUpon>Hearing_Athan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ismail_ibn_Musa_Menk.resx">
+      <DependentUpon>Ismail_ibn_Musa_Menk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kalimas.resx">
+      <DependentUpon>Kalimas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lodging.resx">
+      <DependentUpon>Lodging.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Market.resx">
+      <DependentUpon>Market.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mizanur_Rahman_Azhari.resx">
+      <DependentUpon>Mizanur_Rahman_Azhari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Morning_Evening_Dua.resx">
+      <DependentUpon>Morning_Evening_Dua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mosque.resx">
+      <DependentUpon>Mosque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muslim.resx">
+      <DependentUpon>Muslim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muslim_Hadish_2.resx">
+      <DependentUpon>Muslim_Hadish_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muslim_Hadith_0432.resx">
+      <DependentUpon>Muslim_Hadith_0432.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muslim_Hadith_0433.resx">
+      <DependentUpon>Muslim_Hadith_0433.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muslim_Hadith_0435.resx">
+      <DependentUpon>Muslim_Hadith_0435.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muslim_Hadith_10.resx">
+      <DependentUpon>Muslim_Hadith_10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muslim_Hadith_5.resx">
+      <DependentUpon>Muslim_Hadith_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muslim_Hadith_No_0736.resx">
+      <DependentUpon>Muslim_Hadith_No_0736.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muslim_Hadith_No_0740.resx">
+      <DependentUpon>Muslim_Hadith_No_0740.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Muslim_Hadith_No_735.resx">
+      <DependentUpon>Muslim_Hadith_No_735.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Names99.resx">
+      <DependentUpon>Names99.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordRecoveryCode.resx">
+      <DependentUpon>PasswordRecoveryCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrayerTime.resx">
+      <DependentUpon>PrayerTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileDetails.resx">
+      <DependentUpon>ProfileDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Protection_from_Allah.resx">
+      <DependentUpon>Protection_from_Allah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rabbana.resx">
+      <DependentUpon>Rabbana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetPassword.resx">
+      <DependentUpon>ResetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Return.resx">
+      <DependentUpon>Return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Safa_Marwah.resx">
+      <DependentUpon>Safa_Marwah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Surah.resx">
+      <DependentUpon>Surah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Talbiya.resx">
+      <DependentUpon>Talbiya.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tashahhud.resx">
+      <DependentUpon>Tashahhud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="To_Do_List.resx">
+      <DependentUpon>To_Do_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Travel.resx">
+      <DependentUpon>Travel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="When_Woke_Up.resx">
+      <DependentUpon>When_Woke_Up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zakir_Naiik_lecture.resx">
+      <DependentUpon>Zakir_Naiik_lecture.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wallpaperflare.com_wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_icon-icons.com_57997.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1904671-arrow-arrow-right-change-direction-next-page-right_122521.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aww.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-eye-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-eye-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hide-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unsplash_rxsk7aQoRxg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unsplash_bnjHJO3c5uM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unsplash_8BcNsqDJy2I.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unsplash_DBsQFuIbXg4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nurhan-yC70QqvrPRk-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-blue-mosque-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bluez-mosque-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-man-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-muslim-muslim-praying-prayer-islam-faith-mindful-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunset_sun_sunshine_sunrise_weather_icon_194245.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timeclock_tiemp_3924.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transparent image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity_productivity_icon-icons.com_51080.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adrian-diaz-sieckel--8X6B5j8mU0-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\business-color_progress_icon-icons.com_53437.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connor-houtman-ceFa_z3Y7ws-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gebhartyler-AQpOwYbm_Jg-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geoffrey-baumbach-P1w-eJzhSUk-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic-back_97586.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imitation-transparent-background-seamless-vector-illustration-69028332.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1090245970-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\josh-hild-2oDMoju8bfk-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\josh-hild-zE_VaDkmybY-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mosque_PNG70.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pratik-gupta-z7ES_ScFPhg-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ravi-mistry-tzY4j1Q5NWc-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunrise_weather_morning_icon_187687.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_mosque.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51112dkXAWL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fatiha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Baqarah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rahman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shams.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alaq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ikhlas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abdurahman-iseini-DNwQ35LdxXQ-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alkhatab-al-saqri-2XAxD30VP-U-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alkhatab-al-saqri-LM9UihLpexM-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gabriel-santiago-l1sqXJXBgd0-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_nature_wide.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leo-manjarrez-q2RE-l8xysk-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mahbub-mishu-BDH9DxB9s6U-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roberto-nickson-KLNSaP6wvoU-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutterstock_749707636__1__copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\names99.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1st_Kalima.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4th_Kalima.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5th_Kalima.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6th_Kalima.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man, male, boy, office, business, tie, document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightarrow_116394.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-validation-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nazmulsir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\me.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rishad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-about%28104%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-discord-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-facebook-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-youtube-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-github-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-linkedin-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-discord-bubble-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-contact-us-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-phonelink-ring.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mobilering.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mapanimation.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmailanimation.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sad.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-phonelink-ring1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_3rd_Kalima_.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_2nd_Kalima_.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sadblack.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lasttry.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
